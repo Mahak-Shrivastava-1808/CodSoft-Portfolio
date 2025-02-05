@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.04rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 20px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+.firstSection > div{
+    width: 27%;
+}
+.leftSection{
+    font-size: 2rem;
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color:white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.purple{
+    color: rgb(170, 94, 241);
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(170, 94, 241);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 20vh;
+    text-align: center;
+    padding: 50px 0;
+}
+.secondSection h1{
+    font-size: 2rem;
+}
+.secondSection a{
+    text-decoration: none;
+    color: white;
+    unicode-bidi: isolate;
+}
+.Icons{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.Icons a :hover{
+    color: rgb(153,153,226);
+    transition: 0.5s;
+}
+.image-github{
+    width: 160px;
+}
+.image-linkedin{
+    width: 160px;
+    height: 160px;
+}
+.image-mail{
+    width: 160px;
+}
+.image-whatsapp{
+    width: 160px;
+    height: 160px;
+}
+.vertical-secondSection-title{
+    top:1000px;
+    text-align: center;
+}
+.Form{
+    margin:10px;
+}
+.Form-btn{
+    padding: 4px;
+    background: #1e2167;
+    color:white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: #0e0e1a;
+    padding: 10px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
