@@ -31,12 +31,6 @@ nav ul li a:hover{
     color: rgb(153,153,226);
     font-size: 1.04rem;
 }
-main hr{
-    border: 0;
-    background: #9c97f1;
-    height: 1.2px;
-    margin: 20px 84px;
-}
 .left{
     font-size: 1.5rem;
 }
@@ -71,9 +65,6 @@ main hr{
 .purple{
     color: rgb(170, 94, 241);
 }
-.text-gray{
-    color: gray;
-}
 #element{
     color: rgb(170, 94, 241);
 }
@@ -99,36 +90,6 @@ main hr{
 .Icons a :hover{
     color: rgb(153,153,226);
     transition: 0.5s;
-}
-.image-github{
-    width: 160px;
-}
-.image-linkedin{
-    width: 160px;
-    height: 160px;
-}
-.image-mail{
-    width: 160px;
-}
-.image-whatsapp{
-    width: 160px;
-    height: 160px;
-}
-.vertical-secondSection-title{
-    top:1000px;
-    text-align: center;
-}
-.Form{
-    margin:10px;
-}
-.Form-btn{
-    padding: 4px;
-    background: #1e2167;
-    color:white;
-    border: 2px solid white;
-    border-radius: 6px;
-    font-size: 20px;
-    cursor: pointer;
 }
 footer{
     background-color: #0e0e1a;
